@@ -10,7 +10,7 @@ const ExploreMenu = ({ category, setCategory }) => {
                 Choose from a diverse menu featuring a detectable array of dishes crafted with the finest ingredients and culinary expertise.
             </p>
 
-            <div className="explore-menu-list flex space-x-6 overflow-x-auto py-4">
+            <div className="explore-menu-list flex justify-between space-x-6 overflow-x-auto py-4">
                 {menu_list.map((item, idx) => (
                     <div
                         key={idx}
