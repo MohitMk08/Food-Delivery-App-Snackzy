@@ -1,0 +1,9 @@
+.footer-socials img {
+    width: 40px;
+}
+
+.footer-center li,
+.footer-right li,
+.footer-socials img {
+    cursor: pointer;
+}

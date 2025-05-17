@@ -1,0 +1,14 @@
+.cart-items-title {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    color: gray;
+    font-size: max(1vw, 14px);
+    justify-items: center;
+}
+
+.cart-items-item {
+    margin: 10px 0;
+    color: #000;
+    font-size: max(1vw, 12px);
+}
