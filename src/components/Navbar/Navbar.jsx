@@ -3,7 +3,7 @@ import { assets } from '../../assets/frontend_assets/assets';
 import { Link as ScrollLink } from 'react-scroll';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
-import { StoreContext } from '../../context/StoreContext';
+import { StoreContext } from '../../context/StoreContext.jsx';
 
 const Navbar = ({ setShowLogin }) => {
     const [menuOpen, setMenuOpen] = useState(false);
