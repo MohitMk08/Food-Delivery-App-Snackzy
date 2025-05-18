@@ -1,7 +1,7 @@
 import React from 'react'
 import './place-order.css'
 import { useContext } from 'react'
-import { StoreContext } from '../../context/storeContext'
+import { StoreContext } from '../../context/StoreContext.jsx'
 
 const placeOrder = () => {
 

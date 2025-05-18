@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { StoreContext } from '../../context/storeContext';
+import { StoreContext } from '../../context/StoreContext';
 import './cart.css';
 import { get } from 'react-scroll/modules/mixins/scroller';
 import { useNavigate } from 'react-router-dom';
