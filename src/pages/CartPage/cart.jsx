@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { StoreContext } from '../../context/StoreContext';
 import './cart.css';
-import { get } from 'react-scroll/modules/mixins/scroller';
 import { useNavigate } from 'react-router-dom';
 const Cart = () => {
     const { cartItems, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreContext);
@@ -15,7 +14,7 @@ const Cart = () => {
             <h2 className="text-2xl font-semibold text-gray-700 my-4">Your Cart</h2>
 
             <div className="overflow-x-auto">
-                <div className="hidden md:grid grid-cols-6 font-semibold text-gray-600 border-b pb-2">
+                <div className="hidden md:grid grid-cols-6 font-semibold text-gray-600 border-b pb-2 gap-3">
                     <p>Item</p>
                     <p>Title</p>
                     <p>Price</p>
@@ -33,7 +32,7 @@ const Cart = () => {
                                 <p>₹{item.price}</p>
                                 <p>{cartItems[item._id]}</p>
                                 <p>₹{item.price * cartItems[item._id]}</p>
-                                <button onClick={() => removeFromCart(item._id)} className="text-red-500 underline">Remove</button>
+                                <button onClick={() => removeFromCart(item._id)} className="text-red-500 underline text-start">Remove</button>
                             </div>
                         );
                     }
