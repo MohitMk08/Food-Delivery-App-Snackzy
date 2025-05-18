@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
-import { assets } from '../../assets/frontend_assets/assets';
+import { assets } from '../../assets/frontend_assets/assets.js';
 import { Link as ScrollLink } from 'react-scroll';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
